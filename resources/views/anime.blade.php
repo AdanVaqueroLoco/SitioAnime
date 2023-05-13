@@ -1,3 +1,3 @@
 <x-app-layout>
-    <h1>Anime!!<h1>
+    <h1>Anime!:"Demon Slayer","capitulos":24,"genero":"Acci\u00f3n","descripcion":"La serie narra las desventuras de Tanjiro, un joven de un Jap\u00f3n feudal fant\u00e1stico que se ve abocado a la venganza despu\u00e9s de que un demonio acabe con toda su familia, a excepci\u00f3n de su hermana, Nezuko, tambi\u00e9n demon\u00edaca y sedienta de sangre.","created_at":"2023-05-13T00:00:00.000000Z","updated_at":"2023-05-13T00:00:00.000000Z","foto":""},{"id":8,"nombre":"Evangelion","capitulos":26,"genero":"Psicol\u00f3gico","descripcion":"La historia de la obra se da lugar en un mundo futurista en el que una organizaci\u00f3n paramilitar llamada NERV protege a la humanidad de los ataques de seres de !<h1>
 </x-app-layout>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 13, 2023 at 07:35 AM
+-- Generation Time: May 14, 2023 at 12:46 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -44,7 +44,13 @@ CREATE TABLE `contenido` (
 
 INSERT INTO `contenido` (`id`, `nombre`, `capitulos`, `genero`, `descripcion`, `created_at`, `updated_at`, `foto`) VALUES
 (1, 'Death Note', 36, 'Drama', 'Un jóven consigue una libreta que le permite asesinar gente.', '2023-05-12', '2023-05-12', ''),
-(2, 'Dragon Ball', 128, 'Acción', 'Se deben de recolectar las esferas del Dragón para pedir un deseo', '2023-05-12', '2023-05-12', '');
+(2, 'Dragon Ball', 128, 'Acción', 'Se deben de recolectar las esferas del Dragón para pedir un deseo', '2023-05-12', '2023-05-12', ''),
+(3, 'Chainsaw Man', 12, 'Acción', '\'Chainsaw Man\' es la historia de Denji, un adolescente que carga con las inmensas deudas de su padre y que malvive como puede para saldarlas, ya sea vendiendo sus órganos o haciendo todo tipo de trabajos malpagados. Su única compañía es Pochita, un demonio motosierra.', '2023-05-13', '2023-05-13', ''),
+(4, 'My Hero Academia', 24, 'Acción', 'My Hero Academia es una serie de anime realizada por el estudio BONES basada en el manga homónimo creado por Kohei Horihoshi acerca de un grupo de estudiantes que se preparan para ser superhéroes. La trama del anime My Hero Academia nos sitúa en un mundo en el que la mayoría de la población nace con superpoderes.', '2023-05-13', '2023-05-13', ''),
+(5, 'Fullmetal Alchemist', 51, 'Acción', 'Los hermanos Edward y Alphonse Elric viven en un mundo donde la magia y la alquimia existen y se pueden practicar. Después de la muerte de su madre, juntos tratarán de resucitarla a través de la alquimia.', '2023-05-13', '2023-05-13', ''),
+(6, 'Berserk', 25, 'Drama', '“Berserk” sigue la historia de Guts, un mercenario y espadachín con un oscuro destino. Nacido del cadáver de una mujer ahorcada, su vida ha sido un solitario viaje entre conflicto y conflicto que solo terminó cuando se unió al grupo de mercenarios la Banda de Halcones, quienes se convirtieron en sus compañeros.', '2023-05-13', '2023-05-13', ''),
+(7, 'Demon Slayer', 24, 'Acción', 'La serie narra las desventuras de Tanjiro, un joven de un Japón feudal fantástico que se ve abocado a la venganza después de que un demonio acabe con toda su familia, a excepción de su hermana, Nezuko, también demoníaca y sedienta de sangre.', '2023-05-13', '2023-05-13', ''),
+(8, 'Evangelion', 26, 'Psicológico', 'La historia de la obra se da lugar en un mundo futurista en el que una organización paramilitar llamada NERV protege a la humanidad de los ataques de seres de origen y naturaleza desconocidos, los «Ángeles», utilizando para ello bio mechas humanoides llamados Evangelion.', '2023-05-13', '2023-05-13', '');
 
 -- --------------------------------------------------------
 
@@ -90,7 +96,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `contenido`
 --
 ALTER TABLE `contenido`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `users`
